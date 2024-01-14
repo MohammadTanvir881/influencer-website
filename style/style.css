@@ -113,7 +113,7 @@ nav {
     margin-top: 10px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 50px 300px;
+    padding: 50px 150px;
     row-gap: 50px;
     justify-items: center;
 }
@@ -227,6 +227,7 @@ footer {
     .nav-title {
         font-size: 23px;
         margin-bottom: 10px;
+        margin-left: 17px;
     }
 
     .nav-menu {
@@ -309,11 +310,225 @@ footer {
     }
     .featured-img {
         padding: 20px;
+        padding-left: 25px;
     }
     .featured-img img {
         width: 100%;
     }
+    /* .footer-title{
+        width: 100%;
+    } */
+    footer {
+        margin-right: 0px;
+    }
 
 
 
+}
+
+
+@media screen and (min-width:576px) and (max-width : 992px){
+    /* .nav {
+        flex-direction: column;
+    } */
+
+    .nav-title {
+        font-size: 23px;
+        margin-bottom: 10px;
+        margin-left: 17px;
+    }
+
+    .nav-menu {
+        text-align: center;
+    }
+
+    .nav-menu a {
+        /* display: block; */
+        padding: 5px;
+        font-size: 18px;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        background-position: top;
+        background-size: 600px 500px;
+        padding: 40px;
+        margin-top: 50px;
+    }
+
+    .banner-img img {
+        padding-left: 20px;
+    }
+
+    .banner-text {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .banner-text h1 {
+        font-size: 32px;
+    }
+
+    .pay-cards {
+        flex-wrap: wrap;
+        margin-top: 35px;
+        border: none;
+        padding: 10px;
+        padding-left: 20px;
+
+    }
+
+    /* .pay-cards>div {
+        margin: 0px 10px;
+    } */
+    .pay-cards div img {
+        width: 80%;
+    }
+
+    .items-title {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 40px;
+    }
+
+    .selling-items {
+        grid-template-columns:repeat(2 , 1fr);
+        padding: 15px 20px;
+        row-gap: 40px;
+    }
+
+    .see-more {
+        margin-right: 25px;
+    }
+
+    .featured-products {
+        flex-direction: column-reverse;
+        gap: 10px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .featured-text  {
+        text-align: center;
+        padding: 20px;
+    }
+    .featured-text h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .featured-img {
+        padding: 20px;
+        padding-left: 25px;
+    }
+    .featured-img img {
+        width: 100%;
+    }
+    /* .footer-title{
+        width: 100%;
+    } */
+    footer {
+        margin-right: 0px;
+    }
+
+}
+
+@media screen and (min-width:992px) and (max-width : 1120px) {
+     
+    .nav-title {
+        font-size: 23px;
+        margin-bottom: 10px;
+        margin-left: 17px;
+    }
+
+    .nav-menu {
+        text-align: center;
+    }
+
+    .nav-menu a {
+        /* display: block; */
+        padding: 5px;
+        font-size: 18px;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        background-position: top;
+        background-size: 600px 500px;
+        padding: 40px;
+        margin-top: 50px;
+    }
+
+    .banner-img img {
+        padding-left: 20px;
+    }
+
+    .banner-text {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .banner-text h1 {
+        font-size: 32px;
+    }
+
+    .pay-cards {
+        flex-wrap: wrap;
+        margin-top: 35px;
+        border: none;
+        padding: 10px;
+        padding-left: 20px;
+
+    }
+
+    /* .pay-cards>div {
+        margin: 0px 10px;
+    } */
+    .pay-cards div img {
+        width: 80%;
+    }
+
+    .items-title {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 40px;
+    }
+
+    .selling-items {
+        grid-template-columns:repeat(3 , 1fr);
+        padding: 15px 20px;
+        row-gap: 30px;
+    }
+
+    .see-more {
+        margin-right: 25px;
+    }
+
+    .featured-products {
+        /* flex-direction: column-reverse; */
+        gap: 10px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .featured-text  {
+        /* text-align: center; */
+        padding: 20px;
+    }
+    .featured-text h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .featured-img {
+        padding: 20px;
+        padding-left: 25px;
+    }
+    .featured-img img {
+        width: 100%;
+    }
+    /* .footer-title{
+        width: 100%;
+    } */
+    footer {
+        margin-right: 0px;
+    }
 }
